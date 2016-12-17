@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "A pug wrapper for easy use in electron projects",
   "main": "index.js",
+  "repository": "Caaz/carlin",
   "scripts": {
     "test": "xo"
   },
