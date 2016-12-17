@@ -19,7 +19,7 @@ module.exports = {
     const name = path.basename(src, path.extname(src))
     const view = settings.outDir + name + '.html'
     if((!compile) && (fs.existsSync(view))) {
-      if (fs.fstatSync(view).mtime.getTime() <= fs.fstatSync(src).mtime.getTime()) {
+      if (fs.statSync(view).mtime.getTime() <= fs.statSync(src).mtime.getTime()) {
         compile = true
       }
     } else {
