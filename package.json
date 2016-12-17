@@ -1,0 +1,35 @@
+{
+  "name": "carlin",
+  "version": "1.0.0",
+  "description": "A pug wrapper for easy use in electron projects",
+  "main": "index.js",
+  "scripts": {
+    "test": "xo"
+  },
+  "keywords": [
+    "electron",
+    "pug",
+    "pugjs"
+  ],
+  "author": "Daniel Caaz",
+  "license": "ISC",
+  "devDependencies": {
+    "xo": "^0.17.1"
+  },
+  "xo": {
+    "semicolon": false,
+    "space": true,
+    "esnext": true,
+    "rules": {
+      "max-statements-per-line": 1,
+      "guard-for-in": 1,
+      "keyword-spacing": 0,
+      "no-fallthrough": 0,
+      "brace-style": 0,
+      "curly": 0
+    }
+  },
+  "dependencies": {
+    "pug": "^2.0.0-beta6"
+  }
+}
